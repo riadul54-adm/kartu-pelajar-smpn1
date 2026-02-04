@@ -1,0 +1,16 @@
+{
+  "name": "kartu-pelajar-smpn1",
+  "version": "1.0.0",
+  "description": "Sistem Kartu Pelajar Online SMPN 1 Pamarayan",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'Build complete'",
+    "deploy": "gh-pages -d public"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "gh-pages": "^5.0.0"
+  },
+  "dependencies": {}
+}

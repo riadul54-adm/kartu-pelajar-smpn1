@@ -1,0 +1,26 @@
+{
+  "siswa": [
+    {
+      "NIS": "2024001",
+      "Nama": "ANDI WIJAYA",
+      "Kelas": "7A",
+      "JenisKelamin": "L",
+      "TTL": "Pamarayan, 15 Januari 2012",
+      "Alamat": "Jl. Merdeka No. 1",
+      "Foto": "",
+      "Password": "15012012",
+      "TahunAjaran": "2024/2025"
+    },
+    {
+      "NIS": "2024002",
+      "Nama": "SITI AISYAH",
+      "Kelas": "7B",
+      "JenisKelamin": "P",
+      "TTL": "Pamarayan, 20 Maret 2012",
+      "Alamat": "Jl. Pendidikan No. 5",
+      "Foto": "",
+      "Password": "20032012",
+      "TahunAjaran": "2024/2025"
+    }
+  ]
+}

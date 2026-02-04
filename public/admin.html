@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Pelajar Online - SMPN 1 Pamarayan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <i class="fas fa-school"></i>
+                <h1>SMPN 1 PAMARAYAN</h1>
+            </div>
+            <h2>KARTU PELAJAR ONLINE</h2>
+            <p>Sistem Cetak Mandiri - Anti Pungli</p>
+        </div>
+
+        <div class="login-box">
+            <h3><i class="fas fa-sign-in-alt"></i> LOGIN SISWA</h3>
+            
+            <div class="input-group">
+                <label><i class="fas fa-id-card"></i> NIS</label>
+                <input type="text" id="nis" placeholder="Contoh: 2024001">
+            </div>
+            
+            <div class="input-group">
+                <label><i class="fas fa-key"></i> PASSWORD</label>
+                <input type="password" id="password" placeholder="Tanggal Lahir (DDMMYYYY)">
+            </div>
+            
+            <button onclick="login()" class="btn-login">
+                <i class="fas fa-download"></i> LOGIN & DOWNLOAD KARTU
+            </button>
+            
+            <div class="links">
+                <a href="admin.html" class="admin-link">
+                    <i class="fas fa-user-shield"></i> PANEL ADMIN
+                </a>
+                <p class="help">Password = Tanggal Lahir (DDMMYYYY)</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><i class="fas fa-map-marker-alt"></i> Jl. Pendidikan No. 123, Pamarayan</p>
+            <p><i class="fas fa-phone"></i> (0254) 123456 | © 2024 SMPN 1 Pamarayan</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
